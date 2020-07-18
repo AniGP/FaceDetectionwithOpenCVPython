@@ -15,7 +15,7 @@ while cap.isOpened():
         cv2.rectangle(img, (x, y), (x + w, y + h), (255, 0, 0), 3)
 
     # Display the output
-    cv2.imshow('img', img)
+    cv2.imshow('Image', img)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
